@@ -1,9 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet } from 'react-native';
+
+// import different screens
 import Start from './components/Start';
 import Chat from './components/Chat';
+
+// import react native gesture handler
 import 'react-native-gesture-handler';
+
+// import Navigation
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TextInput, ImageBackground, Image, Pressable } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
+// image(s) and icon(s) used
 const bg = require('../assets/bg-image.png');
 const userIcon = require('../assets/userIcon.png');
 
@@ -97,14 +98,16 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 45,
     color: '#fff',
-    fontWeight: '600'
+    fontWeight: '600',
+    marginBottom: 70
   },
   box: {
     backgroundColor: '#fff',
     width: '88%',
     height: '44%',
     justifyContent: 'space-evenly',
-    alignItems: 'center'
+    alignItems: 'center',
+    minHeight: 300
   },
   userIcon: {
     width: 20,
@@ -136,7 +139,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   bgColorBox: {
-    width: '88%'
+    width: '88%',
   },
   bgColorText: {
     fontSize: 16,
@@ -144,28 +147,28 @@ const styles = StyleSheet.create({
     color: '#757083',
   },
   bgColor1: {
-    borderRadius: 25,
+    borderRadius: 20,
     backgroundColor: '#090C08',
-    width: 50,
-    height: 50
+    width: 40,
+    height: 40
   },
   bgColor2: {
-    borderRadius: 25,
+    borderRadius: 20,
     backgroundColor: '#474056',
-    width: 50,
-    height: 50
+    width: 40,
+    height: 40
   },
   bgColor3: {
-    borderRadius: 25,
+    borderRadius: 20,
     backgroundColor: '#8A95A5',
-    width: 50,
-    height: 50
+    width: 40,
+    height: 40
   },
   bgColor4: {
-    borderRadius: 25,
+    borderRadius: 20,
     backgroundColor: '#B9C6AE',
-    width: 50,
-    height: 50
+    width: 40,
+    height: 40
   },
   btn: {
     backgroundColor: '#757083',
