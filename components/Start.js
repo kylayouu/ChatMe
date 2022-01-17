@@ -48,19 +48,39 @@ export default class Start extends React.Component {
               <Text style={styles.bgColorText}>Choose Background Color:</Text>
 
               <View style={styles.bgColorSelector}>
-                <TouchableOpacity onPress={() => this.changeBgColor(this.colors.black)}>
+                <TouchableOpacity 
+                  accesible={true}
+                  accessibilityLabel='Black Color'
+                  accessibilityHint='Click to choose black for chat screen background'
+                  accessibilityRole='Button'
+                  onPress={() => this.changeBgColor(this.colors.black)}>
                   <View style={styles.bgColor1}></View>
                 </TouchableOpacity>
 
-                <TouchableOpacity onPress={() => this.changeBgColor(this.colors.darkPurple)}>
+                <TouchableOpacity 
+                  accesible={true}
+                  accessibilityLabel='Dark Purple'
+                  accessibilityHint='Click to choose dark purple for chat screen background'
+                  accessibilityRole='Button'
+                  onPress={() => this.changeBgColor(this.colors.darkPurple)}>
                   <View style={styles.bgColor2}></View>
                 </TouchableOpacity>
 
-                <TouchableOpacity onPress={() => this.changeBgColor(this.colors.gray)}>
+                <TouchableOpacity 
+                  accesible={true}
+                  accessibilityLabel='Dark Purple'
+                  accessibilityHint='Click to choose dark purple for chat screen background'
+                  accessibilityRole='Button'
+                  onPress={() => this.changeBgColor(this.colors.gray)}>
                   <View style={styles.bgColor3}></View>
                 </TouchableOpacity>
 
-                <TouchableOpacity onPress={() => this.changeBgColor(this.colors.lightGreen)}>
+                <TouchableOpacity 
+                  accesible={true}
+                  accessibilityLabel='Light Green'
+                  accessibilityHint='Click to choose light green for chat screen background'
+                  accessibilityRole='Button'
+                  onPress={() => this.changeBgColor(this.colors.lightGreen)}>
                   <View style={styles.bgColor4}></View>
                 </TouchableOpacity>
               </View>
@@ -68,6 +88,10 @@ export default class Start extends React.Component {
             </View>
 
             <Pressable
+              accesible={true}
+              accessibilityLabel='Start Chatting Button'
+              accessibilityHint='Click to go to chat screen'
+              accessibilityRole='Button'
               style={styles.btn}
               onPress={() => this.props.navigation.navigate('Chat', { 
                 name: this.state.name, 
