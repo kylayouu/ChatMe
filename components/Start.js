@@ -138,7 +138,6 @@ const styles = StyleSheet.create({
     height: 20,
     margin: 3,
     marginRight: 7,
-    color: '#757083',
     opacity: .5
   },
   inputRow: {
