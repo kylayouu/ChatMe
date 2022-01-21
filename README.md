@@ -38,3 +38,38 @@ and location data.
 -  Location data must be sent via the chat in a map view.
 - The chat interface and functionality must be created using the Gifted Chat library.
 - The app’s codebase must contain comments.
+
+## To Get Started
+Install npm and expo cli:
+- npm install expo-cli --global expo init
+
+To start expo:
+- npm start or expo start
+
+To open on your physical phone, download the Expo app and scan the QR code provided in the terminal or the browser by Metro Bundler.
+  
+## Dependencies
+- npm install react-native-gifted-chat –-save
+- npm install –save firebase@7.9.0
+- expo install @react-native-async-storage/async-storage
+- expo install @react-natvie-community/netinfo
+- expo install expo-permissions
+- expo install expo-image-picker
+- expo install expo-location
+- expo install react-native-maps
+
+For react-navigation:
+- npm install --save react-navigation
+
+its dependencies:
+- npm install @react-navigation/native @react-navigation/stack
+expo install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+## Database
+- Firestore Database
+
+## Emulator/Simulators
+Android Studio
+- https://developer.android.com/studio
+
+XCode for iOS simulators
